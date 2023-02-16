@@ -1,0 +1,24 @@
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.list-group .list-group-item:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.badge .text-bg-secondary:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+#detail .card-title {
+    text-transform: uppercase;
+}
+
+/* hapus */
