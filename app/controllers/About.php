@@ -7,9 +7,9 @@ class About extends Controller
     public function index()
     {
         $data[0] = 'About';
-        $data[1] = 'About';
+        $data[1] = $this->model('User_model')->getUser();
         $this->view("templetes/header", $data);
-        $this->view('about/index');
+        $this->view('about/index', $data);
         $this->view("templetes/footer");
     }
     public function page()
